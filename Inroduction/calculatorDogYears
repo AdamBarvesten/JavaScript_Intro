@@ -1,0 +1,20 @@
+// My age in human years
+const myAge = 25;
+
+// The first two years of a dog’s life count as 10.5 dog years each.
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// Each year following equates to 4 dog years.
+let laterYears = myAge - 2;
+laterYears *= 4;
+
+// Gives my age in dog years
+myAgeInDogYears = earlyYears + laterYears
+
+// I'm supposed to write my name in lowercase here...
+let myName = 'Adam'.toLowerCase();
+
+// Print out of the result
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+
